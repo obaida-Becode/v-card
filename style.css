@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    width: 100vw;
+	height: 100vh;
+	display: flex;
+}
+body{
+    margin: 0px;
+}
+
+.left {
+    background-color: #2d1ffd;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    color: azure;
+}
+
+.logo {
+    width: 110px;
+    height: 60px;
+    border-radius: 20px;
+    
+}
+.center {
+    
+    
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    
+}
+
+.smallAdd{
+    height: 5%;
+    width: 200px;
+    background-color: #2d1ffd;
+}
+
+.imgProfile{
+background-image: url(./Assest/obz$.jpeg);
+background-size: cover;
+height: 90%;
+display: flex;
+justify-content: flex-end;
+padding-top: 210px;
+
+}
+
+
+.right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 0;
+    background-color: azure;
+    font-size: large;
+}
+
+.rightContainer{
+    height: 100%;
+    display: flex;
+    
+}
+
+
+
+.linePartL{
+    height: 5px;
+	width: 90px;
+    background-color: #2d1ffd;
+    
+}
+
+.line{
+    height: 5px;
+	width: 30px;
+    background-color: #2d1ffd;
+}
+
+.lineBag{
+    padding-top: 232px;
+}
+
+.info{
+    padding-top: 145px;
+    font-family: 'Alegreya', serif;
+   margin: 40px;
+}    
+
+.menu{
+    font-size: 50px;
+	cursor: pointer;
+}
+
+.menu i:hover{
+opacity: 0.3;
+}
+
+.btn-left{
+background-color: #2d1ffd;
+text-align: center;
+color: azure;
+border:none;
+border-radius: 10px 15px;
+padding: 10px;
+
+}
+
+.btn-right{
+    border:1px solid ;
+    text-align: center;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 2px;
+    margin-left: 5px;
+}
+.buttons{
+    padding: 5px;
+}
